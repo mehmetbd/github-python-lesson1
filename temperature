@@ -1,0 +1,24 @@
+#1st thing
+temperature=int(input("what is the temparature today"))
+if temperature > 20:
+    outfit="shirt"
+    print("i will were a",outfit,"in this summer")
+else:
+    outfit="jacket"
+    print("i will were a",outfit,"in this winter")
+#2nd thing
+raining=input("is it raining or not")
+if raining=="its not":
+    item="nothing"
+    print("i will use",item,"because its not raining")
+else:
+    item="umbrella"
+    print("i will use a",item,"to protect from the rain")
+#3rd thing
+shoes_or_boots=input("what i will wear in this summer shoes or boots")
+if shoes_or_boots=="there are puddles wear boots":
+    wearing="boots"
+    print("i will wear",wearing,"for splashing at mudie puddles")
+else:
+    wearing="shoes"
+    print("i will wear",wearing,"to rizz up my coolness")        
